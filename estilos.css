@@ -1,0 +1,21 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.estructura{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    border: solid;
+}
+.estructura div{
+    background: rgb(9, 154, 232);
+    display: block;
+    color: #fff;
+    padding: 20px;
+}
+.estructura .header{
+    background: red;
+}
+.estructura .footer{
+    background: black;
+}

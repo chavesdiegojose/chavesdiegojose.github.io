@@ -1,0 +1,20 @@
+.estructura{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+.estructura .header{
+    grid-column: 1 / -1;
+}
+.estructura .masinfo{
+    grid-row: span 3;
+}
+.estructura .footer{
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 1200px) {
+    .estructura{
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+}
